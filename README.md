@@ -25,6 +25,9 @@ cp terraform/credentials.auto.tfvars.example terraform/credentials.auto.tfvars
 ```
 Setup cloudflare_api_key, cloudflare_email, cloudflare_zone_id, hcloud_token on terraform/credentials.auto.tfvars
 
+Place your email in the cert-manager.tf file in placeholer {your-email}
+
+```shell
 
 ### 🚀 Installation
 ```sh
